@@ -2,7 +2,7 @@
 
 > **Comprehensive analysis and enhanced implementation of Real World Asset tokenization protocols with focus on institutional-grade architecture**
 
-[![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+[![License](https://github.com/wls503pl/rwa-protocol-analysis/blob/outstanding_projects/LICENSE)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.19-blue)](https://soliditylang.org/)
 [![Audit Ready](https://img.shields.io/badge/Audit-Ready-green)](https://github.com/yourusername/rwa-protocol-analysis)
 
@@ -191,16 +191,43 @@ This repository presents in-depth technical analysis and enhanced implementation
 **Speaking Engagements**: Available for technical conferences and workshops  
 **Advisory Services**: Strategic guidance on RWA protocol development
 
-## 📄 Licensing & Usage
+## 📄 License & Usage Terms
 
-**MIT License**: Open source availability for educational and commercial use  
-**Attribution Required**: Please credit original research and analysis  
-**Commercial Licensing**: Enterprise licensing available for production deployments
+### ⚠️ Important Notice
+This project is licensed under a **Personal Portfolio License** for demonstration of technical skills and job-seeking purposes only.
+
+### 📋 Usage Permissions
+
+| Usage Type | Allowed | Description |
+|------------|---------|-------------|
+| 🔍 View & Learn | ✅ Allowed | Welcome to view code and learn technical implementations |
+| 🍴 Fork & Study | ✅ Allowed | Fork for personal learning and research purposes |
+| 💼 Interview Demo | ✅ Allowed | Welcome to discuss in technical interviews |
+| 📝 Technical Reference | ✅ Allowed | Quote code snippets in technical articles (attribution required) |
+| 💰 Commercial Use | ❌ Prohibited | Any commercial usage requires explicit authorization |
+| 🔄 Code Reuse | ❌ Prohibited | Direct copying to other projects is not allowed |
+| 📦 Production Deploy | ❌ Prohibited | Not permitted for actual production environments |
+| 🔀 Derivative Works | ❌ Prohibited | Creating other products based on this code is forbidden |
+
+### 🤝 Business Collaboration
+
+For commercial licensing or technical partnerships, please contact:
+
+- 📧 **Email**: [peile.wu.1990@gmail.com]
+- 💼 **LinkedIn**: [https://www.linkedin.com/in/peile-wu-5746872a8/]  
+- 🐙 **GitHub**: [@wls503pl](https://github.com/wls503pl/rwa-protocol-analysis)
+
+### 📜 Full License
+
+For detailed terms and conditions, please see the [LICENSE](./LICENSE) file.
+
+### 🙏 Acknowledgments
+
+Thank you for respecting intellectual property rights! If this project helps you, please:
+- ⭐ Star this repository
+- 🔗 Share with other developers
+- 💬 Provide valuable feedback
 
 ---
 
 **Technical Disclaimer**: All implementations are provided for analysis and educational purposes. Professional audit recommended before production deployment.
-
-**Research Status**: Active development and continuous optimization  
-**Last Updated**: December 2024  
-**Current Focus**: Cross-chain infrastructure enhancement and institutional compliance automation
