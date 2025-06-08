@@ -2,7 +2,7 @@
 
 > **Comprehensive analysis and enhanced implementation of Real World Asset tokenization protocols with focus on institutional-grade architecture**
 
-[![License](https://github.com/wls503pl/rwa-protocol-analysis/blob/outstanding_projects/LICENSE)
+[![Custom License](https://img.shields.io/badge/License-Custom-red.svg)](./LICENSE)
 [![Solidity](https://img.shields.io/badge/Solidity-0.8.19-blue)](https://soliditylang.org/)
 [![Audit Ready](https://img.shields.io/badge/Audit-Ready-green)](https://github.com/yourusername/rwa-protocol-analysis)
 
