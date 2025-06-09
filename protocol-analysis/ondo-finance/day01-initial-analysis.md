@@ -129,7 +129,7 @@ User Balance = (User Shares ÷ Total Shares) × Total USDY Holdings
 ## 💡 Strategic Enhancement Roadmap
 
 ### Phase 1: Gas Optimization (June 2025)
-**Target:** 40% gas reduction for standard operations
+**Target:** 30-40% gas reduction for standard operations
 
 **Implementation Plan:**
 - Deploy batched compliance verification system
@@ -181,11 +181,11 @@ User Balance = (User Shares ÷ Total Shares) × Total USDY Holdings
 ## 🎯 Executive Recommendations
 
 ### Immediate Actions (0-3 months)
-1. **Deploy gas optimization upgrades** - about 30% cost reduction
+1. **Deploy gas optimization upgrades** - 30-40% cost reduction
 2. **Implement automated oracle system** - eliminate manual dependency
 3. **Add MEV protection layer** - protect large transactions
 
-### Strategic Initiatives (3-12 months)
+### Strategic Initiatives (3-9 months)
 1. **Cross-chain protocol expansion** - capture multi-network liquidity
 2. **Enhanced compliance automation** - reduce operational overhead
 3. **Advanced yield optimization** - maximize return efficiency
