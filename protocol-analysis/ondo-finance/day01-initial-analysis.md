@@ -77,7 +77,7 @@ User Balance = (User Shares ÷ Total Shares) × Total USDY Holdings
 
 | Operation | USDY Cost | Standard ERC20 | Overhead |
 |-----------|-----------|----------------|----------|
-| Transfer | 65,000 gas | 45,000 gas | **+44%** |
+| Transfer | 65,000 gas | 45,000 gas | **> 40%** |
 | Wrap Operation | 85,000 gas | N/A | New Feature |
 | Unwrap Operation | 80,000 gas | N/A | New Feature |
 | Price Update | 45,000 gas | N/A | Manual Process |
@@ -181,7 +181,7 @@ User Balance = (User Shares ÷ Total Shares) × Total USDY Holdings
 ## 🎯 Executive Recommendations
 
 ### Immediate Actions (0-3 months)
-1. **Deploy gas optimization upgrades** - 40% cost reduction
+1. **Deploy gas optimization upgrades** - about 30% cost reduction
 2. **Implement automated oracle system** - eliminate manual dependency
 3. **Add MEV protection layer** - protect large transactions
 
