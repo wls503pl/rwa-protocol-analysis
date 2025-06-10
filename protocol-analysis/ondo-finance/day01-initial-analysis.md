@@ -77,7 +77,8 @@ User Balance = (User Shares ÷ Total Shares) × Total USDY Holdings
 
 | Operation | USDY Cost | Standard ERC20 | Overhead |
 |-----------|-----------|----------------|----------|
-| Transfer | 65,000 gas | 45,000 gas | **> 40%** |
+| Transfer | 85,602 gas | 62,272 gas | **> 35%** |
+| Approve | 53,639 gas | 38,470 gas | **> 35%** |
 | Wrap Operation | 85,000 gas | N/A | New Feature |
 | Unwrap Operation | 80,000 gas | N/A | New Feature |
 | Price Update | 45,000 gas | N/A | Manual Process |
