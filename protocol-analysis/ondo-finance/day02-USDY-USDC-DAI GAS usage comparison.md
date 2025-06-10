@@ -22,7 +22,7 @@
 **Address:** `0x6B175474E89094C44Da98b954EedeAC495271d0F`  
 **Type:** Decentralized stablecoin with additional logic  
 
-## 📋 Data Collection Template
+## 📋 Data Collection Sample
 
 ### USDY Transfer Data
 **Source:** https://etherscan.io/address/0x96F6eF951840721AdBF46Ac996b59E0235CB985C
@@ -35,7 +35,7 @@
 | 4 | 0xcd9d92...50e5  | Transfer |  90,402  | 3.945220542 Gwei | 0.000356655827437884 | Withdraw 1,642.17253($1,789.97) USDY to qpxquz.eth from Bybit |
 | 5 | 0xc2186f...3753  | Approve  |  53,639  | 1.606879685 Gwei | 0.000086191419423715 | Approve 98,702.229527415501662866 USDY for Trade on Ondo Finance: USDY Manager by mitschabaude.eth |
 
-### USDC Transfer Data (Baseline 1)
+### USDC Transfer Data
 **Source:** https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
 
 | # | Transaction Hash |   Type   | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
@@ -46,7 +46,7 @@
 | 4 | 0x2eafcc...5690  | Transfer From |  51,413  | 3.945220542 Gwei | 0.000443068841084815 | From 0xaeb5E4...Ea74 To Kraken 10 For 900,000($899,816.40) USDC |
 | 5 | 0x43e184...12d5  | Approve  |  55,582  | 8.100705031 Gwei | 0.000450253387033042 | Approve 156,217.402068 USDC for Trade on Circle: Token Messenger by 0xE8c9C8...10Cc |
 
-### DAI Transfer Data (Baseline 2)
+### DAI Transfer Data
 **Source:** https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F
 
 | # | Transaction Hash |   Type   | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
