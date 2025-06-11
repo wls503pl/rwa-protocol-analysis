@@ -63,22 +63,72 @@
 ### USDC Transfer Data
 **Source:** https://etherscan.io/address/0xa0b86991c6218b36c1d19d4a2e9eb0ce3606eb48
 
+- Transfer method
+
 | # | Transaction Hash |   Type   | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
 |---|------------------|----------|----------|------------------|----------------------|-------|
-| 1 | 0xd791d1...7e04  | Transfer |  40,360  | 6.519307107 Gwei | 0.00026311923483852  | Transfer 100.023305($100.00) USDC to 0x7b0694...7007 |
-| 2 | 0xda6a97...fb3a  | Transfer |  45,172  | 7.279038192 Gwei | 0.000328808713209024 | From Kraken 75 To 0xb8F717...B3ae For 5,342.542741($5,341.45)USDC |
-| 3 | 0x33e823...ede0  | Transfer |  62,260  | 8.279038191 Gwei | 0.00051545291777166  | Withdraw 29.339847($29.33)USDC to 0x49BC01...69B7 from Binance |
-| 4 | 0x2eafcc...5690  | Transfer From |  51,413  | 3.945220542 Gwei | 0.000443068841084815 | From 0xaeb5E4...Ea74 To Kraken 10 For 900,000($899,816.40) USDC |
-| 5 | 0xea9427...8441  | Approve  |  55,582  | 8.100705031 Gwei | 0.000450253387033042 | Approve 156,217.402068 USDC for Trade on Circle: Token Messenger by 0xE8c9C8...10Cc |
+| 1 | 0x7a98fe...58f3  | Transfer |  45,148  | 1.878127825 Gwei | 0.0000847937150431   | From 0xd6a648...0EA8 To 0x798e3B...CB43 For 922.717514 ($922.51) USDC |
+| 2 | 0x3a164f...d07e  | Transfer |  45,160  | 2.043151299 Gwei | 0.00009226871266284  | From Roobet: Hot Wallet To 0xefd74f...354e For 133.795458($133.77) USDC |
+| 3 | 0x89a8d5...6dae  | Transfer |  62,260  | 3.811005502 Gwei | 0.00023727320255452  | Withdraw 109.756642($109.73) USDC to 0xdea8E4...fCbD from Binance |
+| 4 | 0x592891...99ad  | Transfer |  40,348  | 1.656571629 Gwei | 0.000066839352086892 | Transfer 56($55.99) USDC to 0x74AA53...6828 |
+| 5 | 0x636377...839a  | Transfer |  45,148  | 1.968417186 Gwei | 0.000088870099113528 | From Wirex 3 To 0x1126b3...4956 For 1,100($1,099.73) USDC |
+| 6 | 0x933aa1...91cf  | Transfer |  40,360  | 1.687391023 Gwei | 0.00006810310168828  | From Uniswap: Fees 2 To Coinbase Prime For 20.971817($20.97) USDC |
+
+- TransferFrom method
+
+| # | Transaction Hash |      Type     | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
+|---|------------------|---------------|----------|------------------|----------------------|-------|
+| 1 | 0xf27644...7b00  | Transfer From |  46,625  | 2.610285153 Gwei | 0.000121704545258625 | From 0x5637E8...6F52 To 0xA26148...b521 For 22.341896($22.34) USDC |
+| 2 | 0x8ff738...c73d  | Transfer From |  46,613  | 4.067381 Gwei    | 0.000189592830553    | From 0x0412bF...E2a2 To Kraken 10 For 9,998.4($9,996.28) USDC |
+| 3 | 0x717153...5f12  | Transfer From |  53,413  | 3.459925335 Gwei | 0.000184804991918355 | From 0x714F3f...8448 To 0xF0211d...317A For 3,714.01($3,713.22) USDC |
+| 4 | 0xa88a22...04f6  | Transfer From |  46,601  | 9.411064348 Gwei | 0.000438565009681148 | From 0xc3025b...3253 To Kraken 10 For 3,706.4($3,705.61) USDC |
+| 5 | 0x160c86...d7ea  | Transfer From |  46,625  | 7.308770034 Gwei | 0.00034077140283525  | From 0x8CA60A...c5e8 To Circle For 5,000,000($4,998,940.00) USDC |
+| 6 | 0x95690a...277c  | Transfer From |  48,637  | 7.411069749 Gwei | 0.000360452199382113 | From 0x8f0eE0...86AE To 0x1751f2...68FF For 30,000,000 ($29,993,880.00) USDC |
+
+- Approve/Mint method
+
+| # | Transaction Hash |  Type   | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
+|---|------------------|---------|----------|------------------|----------------------|-------|
+| 1 | 0x81a372...e9b1  | Approve |  55,906  | 4.425491446 Gwei | 0.000247411524780076 | Approve Unlimited USDC for Trade on OKX: DEX Token Approval 1 by 0xE396eE...E36a |
+| 2 | 0x870667...6840  | Approve |  55,558  | 3.638314286 Gwei | 0.000202137465101588 | Approve 20 USDC for Trade on Aave: Pool V3 by gusstavocrf.eth |
+| 3 | 0x6e49c9...45ed  | Approve |  55,558  | 3.883926147 Gwei | 0.000215783168875026 | Approve 2 USDC for Trade on 0x6104fe...0cB6 by iacceptmoney.eth |
+| 4 | 0x10215a...e559  | Approve |  55,558  | 3.673557168 Gwei | 0.000204095489139744 | Approve 2,200 USDC for Trade on Pendle: RouterV4 by 0x510165...44E7 |
+| 5 | 0x99dfd8...c0e2  | Approve |  55,570  | 8.397311653 Gwei | 0.00046663860855721  | Approve 722.804167 USDC for Trade on 0xaaaaaa...3D4d by 0xdEBeC3...c196 |
+| 6 | 0xb6b4aa...4f4a  |  Mint   |  55,636  | 7.226154642 Gwei | 0.000402034339662312 | From Null: 0x000...000 To Circle For 381,150.13 ($381,070.09) USDC |
 
 ### DAI Transfer Data
 **Source:** https://etherscan.io/address/0x6B175474E89094C44Da98b954EedeAC495271d0F
 
+- Transfer method
+
 | # | Transaction Hash |   Type   | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
 |---|------------------|----------|----------|------------------|----------------------|-------|
-| 1 | 0x4abce5...87cf  | Transfer |  29,918  | 7.393790288 Gwei | 0.000221207417836384 | Transfer 201.13($201.03) DAI to 0xcb149D...4323 |
-| 2 | 0x2cd0cf...15f5  | Transfer |  29,930  | 9 Gwei | 0.00026937 | From Binance Dep: 0x85b147...4392 To Binance 14 For 5,000($4,997.62) DAI |
-| 3 | 0x3d119b...8a48  | Transfer |  51,830  | 10.188659699 Gwei | 0.00052807823219917 | From HTX 52 To ByBit Dep: 0x39AcF8...Db72 For 38,744.1657664($38,725.68) DAI |
-| 4 | 0xd5c146...4c48  | Transfer From |  32,642  | 7.335632139 Gwei | 0.000239449704281238 | From 0x7b0B60...40ac To Kraken 12 For 10,000($9,995.23) DAI |
-| 5 | 0x610933...afd4  | Approve  |  29,094  | 8.199504008 Gwei | 0.000238556369608752 | Approve 43,811.286880815689910187 DAI for Trade on DSProxy #213,086 by 0xa84a4E...a99C |
+| 1 | 0x4c9269...e44d  | Transfer |  34,754  | 14.501803166 Gwei| 0.000503995667231164 | Transfer 22,961.57897182633($22,953.34) DAI to 0x2c48F1...b70a |
+| 2 | 0x0e722a...4062  | Transfer |  51,830  | 3.959463165 Gwei | 0.00020521897584195  | Withdraw 161.68707($161.63) DAI to 0x68D5A5...C752 from Gate.io |
+| 3 | 0x0fb458...8c30  | Transfer |  34,718  | 3.722950778 Gwei | 0.000129253405110604 | Withdraw 198.04($197.97) DAI to 0xF0e49e...e017 from Binance |
+| 4 | 0x43f05c...7331  | Transfer |  29,918  | 3.809771974 Gwei | 0.000113980757918132 | From ByBit Dep: 0x1E984A...d76e To Bybit: Hot Wallet For 500($499.82) Dai Stableco... (DAI) |
+| 5 | 0xaeff8d...d0d4  | Transfer |  29,930  | 0.413393328 Gwei | 0.00001237286230704  | From KuCoin Dep: 0x9672dd...E0a5 To KuCoin 20 For 115,281.67($115,237.40) DAI |
+| 6 | 0x54559f...d142  | Transfer |  51,818  | 1.425420544 Gwei | 0.000073862441748992 | From ENS Name *アレクサンダー.eth To ByBit Dep: 0x5041DF...85bc For 2,494($2,493.04) DAI |
+
+- TransferFrom method
+
+| # | Transaction Hash |      Type     | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
+|---|------------------|---------------|----------|------------------|----------------------|-------|
+| 1 | 0x15c4ff...cb1d  | Transfer From |  32,642  | 3.84018105 Gwei  | 0.0001253511898341   | From 0x0aC504...1586 To Kraken 12 For 500,000($499,653.00) DAI |
+| 2 | 0x0c8b38...e834  | Transfer From |  37,442  | 3.424471872 Gwei | 0.000128219075831424 | From 0x62DAd9...B8B2 To Kraken 12 For 24,283.15($24,266.30) DAI |
+| 3 | 0xa5b662...e936  | Transfer From |  32,630  | 1.643224199 Gwei | 0.00005361840561337  | From 0x36aFA2...80D5 To KuCoin 20 For 2,830($2,828.04) DAI |
+| 4 | 0x018102...bdc5  | Transfer From |  32,642  | 3.30202141 Gwei  | 0.00010778458286522  | From 0x3954dD...21e1 To 0x1616b0...44A1 For 201.617($201.55) DAI |
+| 5 | 0xd5fe7c...0b8d  | Transfer From |  37,442  | 12 Gwei Gwei     | 0.000449304          | From 0x027594...370D To CEX.IO For 34.895000509464666($34.88) DAI |
+| 6 | 0xf7ff98...b7f0  | Transfer From |  32,630  | 16.065280113 Gwei| 0.00052421009008719  | From 0x3b1146...A45e To 0xa0bf73...C0b4 For 1,100.64($1,100.25) DAI |
+
+- Approve method
+
+| # | Transaction Hash |  Type   | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
+|---|------------------|---------|----------|------------------|----------------------|-------|
+| 1 | 0x0c5258...1462  | Approve |  46,158  | 8.499846829 Gwei | 0.000392335929932982 | Approve 2,500 DAI for Trade on 0x38C541...9E0a by 0xdA4DD2...EFf7 |
+| 2 | 0x61a93d...d8e7  | Approve |  46,458  | 8.896205749 Gwei | 0.000413299926687042 | Approve Unlimited DAI for Trade on Aggregation Router V6 by 0xCB981A...C9Cd |
+| 3 | 0xef330e...5b91  | Approve |  26,558  | 5.245546837 Gwei | 0.000139311232897046 | Approve Unlimited DAI for Trade on Aave: Pool V3 by bfdn.eth |
+| 4 | 0xc00912...1404  | Approve |  46,158  | 3.158353512 Gwei | 0.000145783281406896 | Approve 17.35955 DAI for Trade on Rango V2: Rango Diamond by 0x002D74...73A8 |
+| 5 | 0x298a52...7790  | Approve |  24,174  | 3.478003679 Gwei | 0.000084077260936146 | Revoke DAI for Trade on Uniswap V3: Positions NFT by yuva.eth |
+| 6 | 0x403d5d...fd85  | Approve |  46,170  | 0.925819704 Gwei | 0.00004274509573368  | Approve 513,000 DAI for Trade on Aggregation Router V6 by 0xb3251d...A727 |
 
