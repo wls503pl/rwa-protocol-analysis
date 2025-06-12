@@ -1,5 +1,5 @@
 # USDY Gas Consumption Analysis
-**Initial version Date:** June 10, 2025
+**Initial version Date:** June 10, 2025<hr>
 **Focus:** USDY vs USDC vs DAI Transfer Gas
 
 ## 🎯 Research Objectives
