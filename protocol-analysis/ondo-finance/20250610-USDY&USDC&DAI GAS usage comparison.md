@@ -1,5 +1,5 @@
-# Day 2: USDY Gas Consumption Analysis
-**Date:** June 10, 2025  
+# USDY Gas Consumption Analysis
+**Initial version Date:** June 10, 2025
 **Focus:** USDY vs USDC vs DAI Transfer Gas
 
 ## 🎯 Research Objectives
@@ -27,27 +27,55 @@
 ### USDY Transfer Data
 **Source:** https://etherscan.io/address/0x96F6eF951840721AdBF46Ac996b59E0235CB985C
 
-- Transfer from EOA to EOA / Deposit to the Exchange
+- Transfer from EOA to EOA
 
-| # | Transaction Hash |   Type   | Block Num  | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
-|---|------------------|----------|------------|----------|------------------|----------------------|-------|
-| 1 | 0x1d3ed7...66c4  | Transfer |	 22655411  |  85,614  | 0.664942605 Gwei | 0.00005692839618447  | Transfer 262.065597254403563793 ($285.65) USDY to 0xb33820...e615 |
-| 2 | 0xa5fd7d...3173  | Transfer |  22503811  |  85,590  | 1.333275047 Gwei | 0.00011411501127273  | From 0x8f51B0...6bC9 To 0xa1f37d...977D For 3,010($3,292.94) USDY |
-| 3 | 0xe82089...6558  | Transfer |  22451919  |  73,290  | 5.844575667 Gwei | 0.00042834895063443  | Transfer 4,577.166($5,016.57) USDY to 0x596F88...48cA |
-| 4 | 0x1cd7c2...af39  | Transfer |  22404566  |  90,390  | 0.867560582 Gwei | 0.00007841880100698  | From 0x29b795...A4ec To 0x596F88...48cA For 4,598.02($5,039.43) USDY |
-| 5 | 0x7296fc...3617  | Transfer |  22399147  |  90,390  | 0.868842928 Gwei | 0.00007853471226192  | From 0x7d00EE...0B2a To ByBit Dep: 0x38D3a4...F3453F For 115.33202($126.40) USDY |
-| 6 | 0x24e992...dc5b  | Transfer |  21383082  |  85,590  | 17.3577195 Gwei  | 0.001485647212005    | Transfer 423,747.82168($464,003.86) USDY to ByBit Dep: 0x9Df91f...e369 |
+| # | Transaction Hash |   Type   | Gas Used |    Gas Price     |     Base Gas     |       ETH Cost       | Notes |
+|---|------------------|----------|----------|------------------|------------------|----------------------|-------|
+| 1 | 0x1d3ed7...66c4  | Transfer |  85,614  | 0.664942605 Gwei | 0.564942605 Gwei | 0.00005692839618447  | From 0x8C78a181...8Cc9dD74A To 0xb33820a3...e6743e615 For 262.065597254403563793($286.70) USDY |
+| 2 | 0xa5fd7d...3173  | Transfer |  85,590  | 1.333275047 Gwei | 0.833275047 Gwei | 0.00011411501127273  | From 0x8f51B0F7...98a366bC9 To 0xa1f37db3...4432a977D For 3,010($3,292.94) USDY |
+| 3 | 0x73db3a...3757  | Transfer |  90,402  | 1.11242621  Gwei | 1.01242621  Gwei | 0.00010056555423642  | From 0xcc7137d4...0E25A243B To 0x8F608e91...11155eb4A For 1.0047164479211521($1.10) USDY |
+| 4 | 0xe82089...6558  | Transfer |  73,290  | 5.844575667 Gwei | 4.783395667 Gwei | 0.00042834895063443  | From 0x6C578079...5BaDbA8de To 0x596F8884...902e548cA For 4,577.166($5,007.42) USDY |
+| 5 | 0x1cd7c2...af39  | Transfer |  90,390  | 0.867560582 Gwei | 0.367560582 Gwei | 0.00007841880100698  | From 0x29b795d5...A7747A4ec To 0x596F8884...902e548cA For 4,598.02($5,030.23) USDY |
+| 6 | 0x2873fd...ab86  | Transfer |  85,590  | 0.377573614 Gwei | 0.327573614 Gwei | 0.00003231652562226  | From 0xB7f57799...26d8a9Bbb To 0x2AD7d18E...42cDd3dCB For 2,000($2,188.00) USDY |
+| 7 | 0xaca73e...93ea  | Transfer |  73,302  | 0.664352207 Gwei | 0.590598432 Gwei | 0.000048698345477514 | From 0x4089CfBB...0BF9A438f To 0x1d819921...22D1aceaE For 43.020131($47.06) USDY |
+| 8 | 0x6716d6...7d3c  | Transfer |  73,290  | 1.166868617 Gwei | 0.853449272 Gwei | 0.00008551980093993  | From 0x4089CfBB...0BF9A438f To 0x1d819921...22D1aceaE For 9.386826($10.27) USDY |
+| 9 | 0xe69bab...d7df  | Transfer |  90,378  | 1.803354048 Gwei | 0.803354046 Gwei | 0.000162983532150144 | From 0x2de18235...20465CAAb To ENS Name element101.eth For 2($2.19) USDY |
+| 10 | 0x76090c...8112 | Transfer |  85,578  | 3 Gwei           | 0.383447965 Gwei | 0.000256734          | From 0xa11eBBB8...80E6002A1 To 0x4660FDA9...c1398c12E For 5($5.47) USDY |
+| 11 | 0xd267e4...49a9 | Transfer |  85,614  | 2.695556912 Gwei | 1.273986469 Gwei | 0.000230777409463968 | From 0x7B9dB594...e52FC000c To 0x35F5932d...6d1903f03 For 834.410990717099010254($912.85) USDY |
+| 12 | 0xa94b6c...868e | Transfer |  85,614  | 0.828000006 Gwei | 0.328000006 Gwei | 0.000070888392513684 | From 0x296343Ca...8e3aCb2ae To 0x3855B152...724FefE80 For 3,448.625338999263835685($3,772.80) USDY |
 
-- Internal operations of the exchange / Withdraw from the Exchange
+- Internal operations of the Exchange
 
-| # | Transaction Hash |   Type   | Block Num  | Gas Used | Gas Price (gwei) |        ETH Cost      | Notes |
-|---|------------------|----------|------------|----------|------------------|----------------------|-------|
-| 1 | 0x1696c2...8faa  | Transfer |	 22465571  |  68,526  | 3.795716967 Gwei | 0.000260105300880642 | From ByBit Dep: 0x2572F6...b347 To Bybit: Hot Wallet For 36,237.218445318561862834($39,715.99) USDY |
-| 2 | 0xedff47...2fdf  | Transfer |  22465337  |  68,526  | 2.945424146 Gwei | 0.000201838135028796 | From ByBit Dep: 0x2572F6...b347 To Bybit: Hot Wallet For 36,243.711946127277($39,723.11) USDY |
-| 3 | 0xb06a1e...4e26  | Transfer |  22454413  |  68,514  | 6.643443827 Gwei | 0.000455168910363078 | From ByBit Dep: 0x2572F6...61b347 To Bybit: Hot Wallet For 35,972.5367($39,425.90) USDY |
-| 4 | 0x2e8999...dd66  | Transfer |  21848888  |  68,514  | 2.719991104 Gwei | 0.000186357470499456 | From ByBit Dep: 0x985B31...F74C2c To Bybit: Hot Wallet For 487.138921939669226816($533.90) USDY |
-| 5 | 0xea9427...8441  | Transfer |  21732033  |  90,402  | 5.522121889 Gwei | 0.000499210863009378 | From Bybit: Hot Wallet To Ondo Finance: USDY Token For 918.806936($1,007.01) USDY |
-| 6 | 0x6a5648...0262  | Transfer |  21443977  |  73,302  | 30.531958832 Gwei| 0.002238053646303264 | Withdraw 500,000($547,500.00) USDY to Smart Account by Safe0x47D9D9...2E1E from Bybit |
+| # | Transaction Hash |   Type   | Gas Used |    Gas Price     |     Base Gas     |       ETH Cost       | Notes |
+|---|------------------|----------|----------|------------------|------------------|----------------------|-------|
+| 1 | 0x1c5b2d...927b  | Transfer |  68,502  | 3.872267938 Gwei | 1.872267938 Gwei | 0.000265258098288876 | From ByBit Dep: 0xAfA22a...D9076d To Bybit: Hot Wallet For 300,000($328,200.00) USDY |
+| 2 | 0xec0158...c442  | Transfer |  68,526  | 2.854312219 Gwei | 0.854312219 Gwei | 0.000195594599119194 | From ByBit Dep: 0x0952A9...791b36 To Bybit: Hot Wallet For 49,054.079259873783827048($53,665.16) USDY |
+| 3 | 0xf1cfa9...e5c9  | Transfer |  68,502  | 26.671674641 Gwei| 24.671674641 Gwei| 0.001827063056257782 | From ByBit Dep: 0x6dED5b...cA2f51 To Bybit: Hot Wallet For 500,200($546,718.60) USDY |
+| 4 | 0x0bd10d...54d4  | Transfer |  68,514  | 3.094296612 Gwei | 1.094296612 Gwei | 0.000212002638074568 | From ByBit Dep: 0xAe2619...D3405C To Bybit: Hot Wallet For 1,100.471272771127224702($1,202.82) USDY |
+| 5 | 0x8335a4...4288  | Transfer |  68,478  | 34.84437898 Gwei | 32.84437898 Gwei | 0.00238607338379244  | From ByBit Dep: 0x55681E...193B28 To Bybit: Hot Wallet For 10($10.93) USDY |
+| 6 | 0xc6da06...2302  | Transfer |  85,602  | 33.348412638 Gwei| 31.348412638 Gwei| 0.002854690818638076 | From ByBit Dep: 0xB7D63d...291D8c To Bybit: Hot Wallet For 30,000($32,790.00) USDY |
+
+- Deposit to the Exchange
+
+| # | Transaction Hash |   Type   | Gas Used |    Gas Price     |     Base Gas     |       ETH Cost       | Notes |
+|---|------------------|----------|----------|------------------|------------------|----------------------|-------|
+| 1 | 0x3b040b...3062  | Transfer |  85,602  | 1.554237712 Gwei | 1.503312079 Gwei | 0.000133045856622624 | From ENS Name qpxquz.eth To ByBit Dep: 0xbD6775...68181F For 1,642.17253($1,794.89) USDY |
+| 2 | 0xd59970...0bc3  | Transfer |  90,402  | 7.078027473 Gwei | 6.231579079 Gwei | 0.000639867839614146 | From ENS Name lphunter.eth To ByBit Dep: 0xAB2281...C5377F For 65,466.01($71,554.35) USDY |
+| 3 | 0xe21a79...5052  | Transfer |  85,614  | 11.21 Gwei       | 11.162463927 Gwei| 0.00095973294        | From ENS Name jl1734.eth To 0x2aEdc26E...54879d5cD For 22.779032716302588543($24.90) USDY |
+| 4 | 0x02b87b...cf7b  | Transfer |  85,614  | 17.958515242 Gwei| 17.864515242 Gwei| 0.001537500323928588 | From ENS Name 888.rektguy.eth To ByBit Dep: 0x26BA76...E09e77 For 35.158082027749753993($38.43) USDY |
+| 5 | 0xc61c5c...5560  | Transfer |  85,614  | 3.81537874 Gwei  | 2.956644715 Gwei | 0.00032664983544636  | From ENS Name besttiger.eth To ByBit Dep: 0xe832A0...7F3fA3 For 1,000.749851584880924191($1,093.82) USDY |
+| 6 | 0x834360...ce8f  | Transfer |  85,614  | 7.355193702 Gwei | 6.442520702 Gwei | 0.000629707553603028 | From ENS Name kenta7270.eth To ByBit Dep: 0x589330...d4010f For 30.15003589542307219($32.95) USDY |
+
+- Withdraw from the Exchange
+
+| # | Transaction Hash |   Type   | Gas Used |    Gas Price     |     Base Gas     |       ETH Cost       | Notes |
+|---|------------------|----------|----------|------------------|------------------|----------------------|-------|
+| 1 | 0x9f07b5...20b9  | Transfer |  90,414  | 4.856898115 Gwei | 2.856898115 Gwei | 0.00043913158616961  | Withdraw 8,657.61($9,462.77) USDY to 0x296b0843...dcf2484E4 from Bybit |
+| 2 | 0xa4d99b...ef73  | Transfer |  90,414  | 6.191733651 Gwei | 4.191733651 Gwei | 0.000559819406321514 | Withdraw 8,589.36($9,388.17) USDY to 0x296b0843...dcf2484E4 from Bybit |
+| 3 | 0xab7522...244f  | Transfer |  90,414  | 7.109629673 Gwei | 5.109629673 Gwei | 0.000642810057254622 | Withdraw 8,535.31($9,329.09) USDY to 0x296b0843...dcf2484E4 from Bybit |
+| 4 | 0x6c8a05...cb84  | Transfer |  90,414  | 2.88723677 Gwei  | 0.88723677 Gwei  | 0.00026104662532278  | Withdraw 8,712.57($9,522.84) USDY to 0x296b0843...dcf2484E4 from Bybit |
+| 5 | 0x475a8e...5938  | Transfer |  90,378  | 42.497469405 Gwei| 40.497469405 Gwei| 0.00384083628988509  | Withdraw 40.96($44.77) USDY to 0xa2cE4a7d...Bb9bc9660 from Bybit |
+| 6 | 0x0f90a6...c2492 | Transfer |  90,390  | 18.501227416 Gwei| 16.501227416 Gwei| 0.00167232594613224  | Withdraw 6,853.21($7,490.55) USDY to 0x30CB2c51...A00e19Ab5 from Bybit |
 
 - Approve method
 
