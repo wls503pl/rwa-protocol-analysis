@@ -3,10 +3,7 @@
 **Focus:** USDY vs USDC vs DAI Transfer Gas
 
 ## 🎯 Research Objectives
-- [ ] Quantifying USDY’s gas premium relative to standard stablecoins
-- [ ] Identify specific sources of extra gas consumption for USDY
-- [ ] Design targeted gas optimization solutions
-- [ ] Estimate cost savings potential after optimization
+- [✅] Quantifying USDY’s gas premium relative to standard stablecoins
 
 ## 📊 Token Contract Information
 
@@ -61,7 +58,7 @@
 |---|------------------|----------|----------|------------------|------------------|----------------------|-------|
 | 1 | 0x3b040b...3062  | Transfer |  85,602  | 1.554237712 Gwei | 1.503312079 Gwei | 0.000133045856622624 | From ENS Name qpxquz.eth To ByBit Dep: 0xbD6775...68181F For 1,642.17253($1,794.89) USDY |
 | 2 | 0xd59970...0bc3  | Transfer |  90,402  | 7.078027473 Gwei | 6.231579079 Gwei | 0.000639867839614146 | From ENS Name lphunter.eth To ByBit Dep: 0xAB2281...C5377F For 65,466.01($71,554.35) USDY |
-| 3 | 0xe21a79...5052  | Transfer |  85,614  | 11.21 Gwei       | 11.162463927 Gwei| 0.00095973294        | From ENS Name jl1734.eth To 0x2aEdc26E...54879d5cD For 22.779032716302588543($24.90) USDY |
+| 3 | 0x28222d...8dff  | Transfer |  85,614  | 17.212690903 Gwei| 17.162690903 Gwei| 0.001473647318969442 | From ENS Name jcroger.eth To ByBit Dep: 0xE03f5f...9C3511 For 520.257559760625900719($568.64) USDY |
 | 4 | 0x02b87b...cf7b  | Transfer |  85,614  | 17.958515242 Gwei| 17.864515242 Gwei| 0.001537500323928588 | From ENS Name 888.rektguy.eth To ByBit Dep: 0x26BA76...E09e77 For 35.158082027749753993($38.43) USDY |
 | 5 | 0xc61c5c...5560  | Transfer |  85,614  | 3.81537874 Gwei  | 2.956644715 Gwei | 0.00032664983544636  | From ENS Name besttiger.eth To ByBit Dep: 0xe832A0...7F3fA3 For 1,000.749851584880924191($1,093.82) USDY |
 | 6 | 0x834360...ce8f  | Transfer |  85,614  | 7.355193702 Gwei | 6.442520702 Gwei | 0.000629707553603028 | From ENS Name kenta7270.eth To ByBit Dep: 0x589330...d4010f For 30.15003589542307219($32.95) USDY |
