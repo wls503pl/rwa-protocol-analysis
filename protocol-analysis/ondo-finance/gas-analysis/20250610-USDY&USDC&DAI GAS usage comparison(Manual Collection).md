@@ -1,6 +1,8 @@
 # USDY Gas Consumption Analysis
-**Initial version Date:** June 10, 2025<hr>
-**Focus:** USDY vs USDC vs DAI Transfer Gas
+**Initial version Date:** June 10, 2025<br>
+**Focus:** USDY vs USDC vs DAI Transfer Gas<br>
+**Note:** ‼️ **_This is the data that was manually collected at the beginning, and it is also classified for accurate calculation of Gas consumption. However, due to the small data sample,
+it has been discarded and is only for reference_**
 
 ## 🎯 Research Objectives
 - [✅] Quantifying USDY’s gas premium relative to standard stablecoins
