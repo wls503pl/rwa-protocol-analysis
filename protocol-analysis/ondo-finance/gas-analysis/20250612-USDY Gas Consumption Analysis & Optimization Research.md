@@ -2,23 +2,19 @@
 
 **A comprehensive analysis of USDY's gas consumption patterns compared to USDC and DAI, with optimization proposals.**
 
-[![Ethereum](https://img.shields.io/badge/Ethereum-Mainnet-blue.svg)](https://ethereum.org/)
-[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
-[![Gas Analysis](https://img.shields.io/badge/Analysis-Gas%20Optimization-green.svg)]()
-
 ## 📋 Table of Contents
-- [Overview](#overview)
-- [Research Methodology](#research-methodology)
-- [Gas Consumption Analysis](#gas-consumption-analysis)
-- [Contract Architecture Analysis](#contract-architecture-analysis)
-- [Optimization Proposals](#optimization-proposals)
-- [Business Impact](#business-impact)
-- [Implementation Roadmap](#implementation-roadmap)
-- [Risk Assessment](#risk-assessment)
+- [Overview](#-overview)
+- [Research Methodology](#-research-methodology)
+- [Gas Consumption Analysis](#-gasconsumption-analysis)
+- [Contract Architecture Analysis](#-contract-architecture-analysis)
+- [Optimization Proposals](#-optimization-proposals)
+- [Business Impact](#-business-impact)
+- [Implementation Roadmap](#-implementation-roadmap)
+- [Risk Assessment](#-risk-assessment)
 
 ## 🎯 Overview
 
-This research analyzes the gas consumption patterns of USDY (Ondo Finance's compliance-focused stablecoin) compared to standard stablecoins USDC and DAI. Our findings reveal significant optimization opportunities that could reduce transaction costs by 25-50%.
+This research analyzes the gas consumption patterns of USDY (Ondo Finance's compliance-focused stablecoin) compared to standard stablecoins USDC and DAI. Our findings reveal significant optimization opportunities that could reduce transaction costs by 30-40%.
 
 ### Key Findings
 - **USDY consumes 82% more gas than USDC** (+35,457 gas average)
@@ -329,10 +325,6 @@ We welcome contributions to this research! Please see our [contributing guidelin
 - Gas optimization techniques  
 - Security review processes
 - Testing frameworks
-
-## 📄 License
-
-This research is released under the [MIT License](LICENSE).
 
 ## 📚 References
 
