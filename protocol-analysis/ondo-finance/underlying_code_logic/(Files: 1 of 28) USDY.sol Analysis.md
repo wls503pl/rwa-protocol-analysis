@@ -1,9 +1,16 @@
-# USDY.sol Code Analysis Documentation
+# USDY.sol Analysis
 
-## Overview
+## 📋 Basic Information
+- **File**: USDY.sol
+- **Contract Address**: 0xea0F7EEbDc2Ae40edFE33bf03D332F8A7f617528
+- **File Index**: 1/28
+- **Author**: Ondo Finance
+- **Solidity Version**: 0.8.16
+
+## 🎯 Purpose
 USDY (USD Yield) is a compliant ERC20 token that implements strict access controls through three compliance mechanisms: blocklist, allowlist, and sanctions list. Every token transfer is subject to comprehensive compliance checks.
 
-## Contract Architecture
+## 🏗️ Contract Architecture
 
 ### Inheritance Structure
 ```solidity
@@ -19,7 +26,7 @@ contract USDY is
 - **Upgradeable pattern**: All inherited contracts are upgradeable versions
 - **Role-based access**: Built on OpenZeppelin's AccessControl system
 
-## Role Definitions
+## 🔑 Role Definitions
 
 ```solidity
 bytes32 public constant LIST_CONFIGURER_ROLE = keccak256("LIST_CONFIGURER_ROLE");
@@ -35,7 +42,7 @@ bytes32 public constant BURNER_ROLE = keccak256("BURNER_ROLE");
 | `PAUSER_ROLE` | Emergency operator (inherited) | Pause/unpause contract |
 | `BURNER_ROLE` | Token destroyer | Burn tokens from any address |
 
-## Initialization
+## 🚀 Initialization
 
 ### Constructor
 ```solidity
@@ -63,7 +70,7 @@ function initialize(
 - `allowlist`: Address of allowlist contract
 - `sanctionsList`: Address of sanctions list contract
 
-## Compliance Management Functions
+## 🔧 Compliance Management Functions
 
 ### List Configuration Functions
 ```solidity
@@ -83,7 +90,7 @@ function setSanctionsList(address sanctionsList)
 - All are `override` functions (implementing interface requirements)
 - All delegate to internal `_set*` functions from parent contracts
 
-## Core Transfer Logic
+## 💡 Core Transfer Logic
 
 ### The Heart of USDY: `_beforeTokenTransfer`
 
@@ -154,7 +161,7 @@ Each address undergoes three checks:
 2. **`_isSanctioned(address)`**: Government sanctions check  
 3. **`_isAllowed(address)`**: Whitelist verification check
 
-## Token Burning
+## 🔥 Token Burning
 
 ### Administrative Burn Function
 ```solidity
@@ -169,7 +176,7 @@ function burn(address from, uint256 amount) external onlyRole(BURNER_ROLE) {
 - **No approval needed**: Bypasses normal approval requirements
 - **Role-protected**: Requires `BURNER_ROLE`
 
-## Transfer Flow Diagram
+## 📊 Transfer Flow Diagram
 
 ```
 Token Transfer Request
@@ -187,7 +194,7 @@ Layer 3: Is this a burn? → Check destination compliance
 All checks passed → Transfer executes
 ```
 
-## Gas Consumption Analysis
+## ⛽ Gas Consumption Analysis
 
 ### Per Transfer Compliance Overhead
 - **Regular transfer**: 6 external calls (3 checks × 2 addresses)
@@ -195,7 +202,7 @@ All checks passed → Transfer executes
 - **Each external call**: ~2,600 gas (STATICCALL + lookup)
 - **Total compliance cost**: 15,600 - 23,400 gas per transfer
 
-## Security Considerations
+## 🔒 Security Considerations
 
 ### Access Control
 - Multiple role-based permissions prevent single points of failure
@@ -207,16 +214,16 @@ All checks passed → Transfer executes
 - Cannot bypass compliance through any transfer method
 - Covers all transfer scenarios: direct, approved, mint, burn
 
-## Memory Points
+## 📝 Learning Points
 
-### Key Patterns to Remember
+### 🟢 Key Patterns to Remember
 1. **Triple Compliance**: Blocklist + Sanctions + Allowlist
 2. **Three-Layer Checking**: Caller + Source + Destination  
 3. **Role Separation**: Different permissions for different operations
 4. **Proxy Safety**: Constructor disables initializers
 5. **Administrative Burns**: Only admins can destroy tokens
 
-### Common Transfer Scenarios
+### 🟡 Common Transfer Scenarios
 - **User → User**: 6 compliance checks
 - **User → DEX → Pool**: 9 compliance checks  
 - **Mint**: 3 compliance checks (destination only)
