@@ -34,7 +34,7 @@ This repository presents systematic technical analysis and deep understanding of
 
 ```
 📦 rwa-protocol-analysis/
-├── 📂 analysis-docs/
+├── 📂 underlying_code_logic/
 │   ├── 📄 USDY.sol Analysis.md              ✅ Complete
 │   ├── 📄 BlocklistClient Analysis.md        ✅ Complete  
 │   ├── 📄 SanctionsListClient Analysis.md    ✅ Complete
