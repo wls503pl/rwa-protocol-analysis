@@ -34,12 +34,14 @@ This repository presents systematic technical analysis and deep understanding of
 
 ```
 📦 rwa-protocol-analysis/
-├── 📂 protocol-analysis/ondo-finance/underlying_code_logic/
-│   ├── 📄 USDY.sol Analysis.md              ✅ Complete
-│   ├── 📄 BlocklistClient Analysis.md        ✅ Complete  
-│   ├── 📄 SanctionsListClient Analysis.md    ✅ Complete
-│   ├── 📄 AllowlistClient Analysis.md        ✅ Complete
-│   └── 📄 TransparentProxy Analysis.md       🔄 In Progress
+├── 📂 protocol-analysis/ondo-finance/
+    ├── 📂 gas-analysis/
+    ├── 📂 underlying_code_logic/
+│   ├── 📄 (Files: 1 of 28) USDY.sol Analysis.md                              ✅ Complete
+│   ├── 📄 (Files: 2 of 28) BlocklistClientUpgradeable.sol Analysis.md        ✅ Complete  
+│   ├── 📄 (Files: 3 of 28) SanctionsListClientUpgradeable.sol Analysis.md    ✅ Complete
+│   ├── 📄 (Files: 4 of 28) AllowlistClientUpgradeable.sol Analysis.md        ✅ Complete
+│   └── 📄 TransparentProxy Analysis.md                                       🔄 In Progress
 ├── 📂 source-contracts/
 │   ├── 📂 ondo-usdy/                        # Original USDY contracts (28 files)
 │   └── 📂 dependencies/                     # OpenZeppelin & external deps
