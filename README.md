@@ -37,11 +37,16 @@ This repository presents systematic technical analysis and deep understanding of
 ├── 📂 protocol-analysis/ondo-finance/
     ├── 📂 gas-analysis/
     ├── 📂 underlying_code_logic/
-│   ├── 📄 (Files: 1 of 28) USDY.sol Analysis.md                              ✅ Complete
-│   ├── 📄 (Files: 2 of 28) BlocklistClientUpgradeable.sol Analysis.md        ✅ Complete  
-│   ├── 📄 (Files: 3 of 28) SanctionsListClientUpgradeable.sol Analysis.md    ✅ Complete
-│   ├── 📄 (Files: 4 of 28) AllowlistClientUpgradeable.sol Analysis.md        ✅ Complete
-│   └── 📄 TransparentProxy Analysis.md                                       🔄 In Progress
+│   ├── 📄 (Files: 1 of 28) USDY.sol Analysis.md                                  ✅ Complete
+│   ├── 📄 (Files: 2 of 28) BlocklistClientUpgradeable.sol Analysis.md            ✅ Complete  
+│   ├── 📄 (Files: 3 of 28) SanctionsListClientUpgradeable.sol Analysis.md        ✅ Complete
+│   ├── 📄 (Files: 4 of 28) AllowlistClientUpgradeable.sol Analysis.md            ✅ Complete
+│   ├── 📄 (Files: 5 of 28) ERC20PresetMinterPauserUpgradeable.sol Analysis.md    ✅ Complete
+│   ├── 📄 (Files: 6 of 28) IBlocklist.sol Analysis.md                            ✅ Complete
+│   ├── 📄 (Files: 7 of 28) IBlocklistClient.sol Analysis.md                      ✅ Complete
+│   ├── 📄 (Files: 8 of 28) Initializable.sol Analysis.md                         ✅ Complete
+│   ├── 📄 (Files: 9 of 28) AddressUpgradeable.sol Analysis.md                    ✅ Complete
+│   └── 📄 TransparentProxy Analysis.md                                           🔄 In Progress
 ├── 📂 source-contracts/
 │   ├── 📂 ondo-usdy/                        # Original USDY contracts (28 files)
 │   └── 📂 dependencies/                     # OpenZeppelin & external deps
