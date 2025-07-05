@@ -46,6 +46,8 @@ This repository presents systematic technical analysis and deep understanding of
 │   ├── 📄 (Files: 7 of 28) IBlocklistClient.sol Analysis.md                      ✅ Complete
 │   ├── 📄 (Files: 8 of 28) Initializable.sol Analysis.md                         ✅ Complete
 │   ├── 📄 (Files: 9 of 28) AddressUpgradeable.sol Analysis.md                    ✅ Complete
+|   ├── 📄 (Files: 10 of 28) ISanctionsListClient.sol Analysis.md                 ✅ Complete
+|   ├── 📄 (Files: 11 of 28) ISanctionsList.sol Analysis.md                       ✅ Complete
 │   └── 📄 TransparentProxy Analysis.md                                           🔄 In Progress
 ├── 📂 source-contracts/
 │   ├── 📂 ondo-usdy/                        # Original USDY contracts (28 files)
