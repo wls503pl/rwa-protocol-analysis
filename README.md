@@ -52,6 +52,7 @@ This repository presents systematic technical analysis and deep understanding of
 |   ├── 📄 (Files: 13 of 28) IAllowlistClient.sol Analysis.md                     ✅ Complete
 |   ├── 📄 (Files: 14 of 28) ERC20BurnableUpgradeable.sol Analysis.md             ✅ Complete
 |   ├── 📄 (Files: 15 of 28) AccessControlEnumerableUpgradeable.sol Analysis.md   ✅ Complete
+|   ├── 📄 (Files: 16 of 28) ERC20Upgradeable.sol Analysis.md                     ✅ Complete
 │   └── 📄 TransparentProxy Analysis.md                                           🔄 In Progress
 ├── 📂 source-contracts/
 │   ├── 📂 ondo-usdy/                        # Original USDY contracts (28 files)
