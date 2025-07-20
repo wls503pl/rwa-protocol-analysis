@@ -54,7 +54,8 @@ This repository presents systematic technical analysis and deep understanding of
 |   ├── 📄 (Files: 15 of 28) AccessControlEnumerableUpgradeable.sol Analysis.md   ✅ Complete
 |   ├── 📄 (Files: 16 of 28) ERC20Upgradeable.sol Analysis.md                     ✅ Complete
 |   ├── 📄 (Files: 17 of 28) ERC20PausableUpgradeable.sol Analysis.md             ✅ Complete
-|   ├── 📄 (Files: 18 of 28) ContextUpgradeable.sol Analysis                      ✅ Complete
+|   ├── 📄 (Files: 18 of 28) ContextUpgradeable.sol Analysis.md                   ✅ Complete
+|   ├── 📄 (Files: 19 of 28) IERC20MetadataUpgradeable.sol Analysis.md            ✅ Complete
 │   └── 📄 TransparentProxy Analysis.md                                           🔄 In Progress
 ├── 📂 source-contracts/
 │   ├── 📂 ondo-usdy/                        # Original USDY contracts (28 files)
